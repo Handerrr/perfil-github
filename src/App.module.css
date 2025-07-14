@@ -1,0 +1,31 @@
+:root {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 16px;
+}
+
+
+.input {
+    border: 1px solid rgb(26, 17, 19);
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 5rem 0.5rem 3rem;  
+}
+
+.button {
+    padding: 0.5rem 1rem;
+    background-color: var(--corPrincipal);
+    border: 1px solid var(--corPrincipal);
+    border-radius: 4px;
+    color: var(--corSecundaria);
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: var(--hoverColor);
+}
